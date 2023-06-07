@@ -1,0 +1,84 @@
+
+<html>
+    <head>
+        <title>Encuentra Bibliotecas</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link href="EstilosiBook.css" rel="stylesheet" type="text/css"/>
+         <style>
+             
+        .header{
+                background-color: antiquewhite;
+                position: fixed;
+                display: flex;
+                top: 0;
+                left: 0;
+                height: 30%;
+                width: 100%;
+            }
+            
+    .options{
+        
+        position:fixed;
+        top: 0;
+        right: 0;
+        font-size: 60px;
+        left: 60%;
+        padding: 38px 100px;
+    }
+    
+     .Title{
+                display: flex;
+                position:fixed;
+                font-size: 60px;
+                font-weight: bold;
+                left: 10%;
+                padding: 50px 100px;
+                line-height: 90px;
+                color: maroon;
+                margin:0 auto;
+            }
+     #contenido { 
+                position:fixed;
+                top: 30%;
+                left: 5%;
+                width: 100%;
+                height: 70%;
+                display: flex;
+                flex-direction: column; 
+                overflow-y: scroll;
+                
+            }
+    
+    </style>
+    </head>
+    <body>
+       <div class="header">
+           <img src="Images/biblioteca.png" alt=""/>
+            <h1 id="TituloPrincipal" style="text-align:center">Encuentra tu biblioteca</h1>
+        </div>
+        <nav class='options'>
+            <ul>
+                <li><a href="HomePage.html"> iBook Menú</a></li>
+            </ul>
+        </nav>
+        
+        <section id="contenido">
+         
+            <article>
+                 <h2 id="Subtitulos">  Acá podrás encontrar la ubicación por medio del mapa hacia tu biblioteca más cercana</h2>
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31433.94187520079!2d-84.14316393024885!3d9.996797442606898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0fac481089f93%3A0xb830b01e3f22f746!2sLibreria%20y%20Bazar%20El%20Nido!5e0!3m2!1ses!2scr!4v1686169038222!5m2!1ses!2scr" width="400" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                           
+                 
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31433.94187520079!2d-84.14316393024885!3d9.996797442606898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0fbe85ec73b0b%3A0x9f7d36360630a59b!2zTGlicmVyw61hIEludGVybmFjaW9uYWwg4oCiIE94w61nZW5v!5e0!3m2!1ses!2scr!4v1686170308118!5m2!1ses!2scr" width="400" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31437.583074186194!2d-84.08610432568352!3d9.959074700000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e468a3c89283%3A0xfbc0102a5484a3f0!2sLibreria%20Peniel%20Moravia!5e0!3m2!1ses!2scr!4v1686170519398!5m2!1ses!2scr" width="400" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+            
+            </article>
+            
+            
+        </section>
+        
+        
+        
+    </body>
+</html>
