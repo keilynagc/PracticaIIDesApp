@@ -1,11 +1,90 @@
 
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Soporte</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link href="EstilosiBook.css" rel="stylesheet" type="text/css"/>
+         <style>
+             
+        .header{
+                background-color: antiquewhite;
+                position: fixed;
+                display: flex;
+                top: 0;
+                left: 0;
+                height: 30%;
+                width: 100%;
+            }
+            
+    .options{
+        
+        position:fixed;
+        top: 0;
+        right: 0;
+        font-size: 60px;
+        left: 60%;
+        padding: 38px 100px;
+    }
+    
+     .Title{
+                display: flex;
+                position:fixed;
+                font-size: 60px;
+                font-weight: bold;
+                left: 10%;
+                padding: 50px 100px;
+                line-height: 90px;
+                color: maroon;
+                margin:0 auto;
+            }
+     #contenido { 
+                position:fixed;
+                top: 30%;
+                left: 5%;
+                width: 100%;
+                height: 70%;
+                
+                flex-direction: column; 
+                overflow-y: scroll;
+                
+            }
+    
+    </style>
     </head>
     <body>
-        <div>TODO write content</div>
+        <div class="header">
+            <img src="Images/ayuda.png" alt=""/>
+            <h1 class="Title" style="text-align:center">Soporte</h1>
+        </div>
+        <nav class='options'>
+            <ul>
+                <li><a href="HomePage.html"> iBook Menú</a></li>
+            </ul>
+        </nav>
+        <section id="contenido">
+            <br>
+             <p> Por favor documenta el problema o error que enfrentas y nos pondremos en contacto contigo lo antes posible via correo eléctronico proporcionado </p> 
+            <br>
+            <form action="#">
+            <br>
+             <label>Nombre:</label> 
+            <input type="text" name="Nombre" id="Nombre" placeholder="Digite su nombre" /> 
+            <br>
+            <label>Apellidos: </label> 
+            <input type="text" name="Apellidos" id="Apellidos" size="50" placeholder="Digite su apellido"/> 
+            <br>
+            <label>Correo electronico </label> 
+            <input type="text" name="Correo" id="Descrip" placeholder="Email" /> 
+            <br>
+            <label>Descripción del problema </label> 
+            <input type="text" name="Descrip" id="Descrip" placeholder="Descripción" /> 
+            <br>
+            <input type="submit" value="Enviar" />
+             <br>
+                <label> </label><input type="reset" name="reset" value="Limpiar"><br/>
+            </form>
+             <p> ¡Gracias por elegirnos! Nuestro equipo te estará contactando en breve. </p> 
+        </section>
     </body>
 </html>
