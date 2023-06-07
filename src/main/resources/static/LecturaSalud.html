@@ -4,8 +4,77 @@
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link href="EstilosiBook.css" rel="stylesheet" type="text/css"/>
+         <style>
+             
+        .headerSegundario{
+        
+        background:url(Images/salud.jpg) no-repeat;
+        display: flex;
+        background-size: cover;
+        background-position: center;
+        height: 250px;
+        width: 100%;
+           
+    } 
+    .options{
+        
+        position:fixed;
+        top: 0;
+        right: 0;
+        font-size: 60px;
+        left: 70%;
+        padding: 50px 100px;
+    }
+     #contenido {
+               
+                 
+                top: 30%;
+                left: 5%;
+                width: 100%;
+                height: 70%;
+                display: flex;
+                flex-direction: column; 
+                overflow-y: scroll;
+            }
+            
+           
+    </style>
     </head>
     <body>
-        
+       <div class="headerSegundario">
+            <h1 id="TituloPrincipal" style="text-align:center">Lectura= ¡Salud!</h1>
+        </div>
+        <nav class='options'>
+            <ul>
+                <li><a href="HomePage.html"> iBook Menú</a></li>
+            </ul>
+        </nav>
+    
+    <h1 id="Subtitulos">Impacto de la lectura en la salud</h1>
+ 
+  <main>
+    <section>
+      <h2>Beneficios de la lectura para la salud mental</h2>
+      <p>La lectura regular tiene numerosos beneficios para la salud mental. Estimula la mente, mejora la memoria y la concentración, reduce el estrés y ayuda a prevenir enfermedades neurodegenerativas como el Alzheimer. Además, la lectura de ficción puede fomentar la empatía y mejorar las habilidades sociales y emocionales.</p>
+    </section>
+    <section>
+      <h2>Impacto de la lectura en el bienestar físico</h2>
+      <p>No solo beneficia la salud mental, sino que la lectura también puede tener un impacto positivo en el bienestar físico. Leer de forma regular puede reducir la presión arterial, disminuir el ritmo cardíaco y aliviar la tensión muscular. Además, puede ayudar a conciliar el sueño y mejorar la calidad del descanso.</p>
+    </section>
+    <section>
+      <h2 id="Subtitulos" >Consejos para fomentar la lectura diaria</h2>
+      <ul >
+        <li>Establece un horario dedicado a la lectura.</li>
+        <li>Crea un ambiente tranquilo y cómodo para leer.</li>
+        <li>Elige libros que te interesen y te hagan disfrutar.</li>
+        <li>Participa en clubes de lectura o discute los libros con amigos.</li>
+        <li>Lleva un registro de los libros que has leído para mantener la motivación.</li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>Datos sobre el impacto de la lectura en la salud - &copy; 2023</p>
+  </footer>
     </body>
 </html>
