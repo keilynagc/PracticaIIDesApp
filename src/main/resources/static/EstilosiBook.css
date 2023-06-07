@@ -14,13 +14,13 @@ p{
     color: saddlebrown;
     font-size: 18px;
     font-family: Arial;
-    padding: 8px 12px;    
+    padding: 8px 12px;
 }
 
 header{
     background: url(Images/banner.jpg) no-repeat;
     background-size: cover;
-    height: 250px;        
+    height: 250px;
 }
 
 nav ul {
@@ -28,21 +28,21 @@ nav ul {
     padding: 0;
     margin: 0;
     display: flex;
-  }
+}
 
-  nav li {
+nav li {
     margin-top: 10px;
-  }
+}
 
-  nav a {
+nav a {
     text-decoration: none;
     font-size: 18px;
     font-family: Arial;
     color: darkred;
     padding: 75px;
-  }
-  
-  a:hover{
+}
+
+a:hover{
     color:black;
     background-color: transparent;
 }
@@ -56,8 +56,45 @@ nav ul {
     line-height: 90px;
     color: maroon;
     margin:0 auto;
-    
-   
+
+
+    .review-container {
+        display: flex;
+    }
+
+    .review-box {
+        display: flex;
+        align-items: center;
+        background-color: #f2f2f2;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        margin-right: 20px;
+    }
+
+    .review-box img {
+        width: 150px;
+        height: 200px;
+        object-fit: cover;
+        margin-right: 20px;
+    }
+
+    .review-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .review-content h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .review-content p {
+        font-size: 16px;
+        line-height: 1.5;
+}
+
+
     
      
      
