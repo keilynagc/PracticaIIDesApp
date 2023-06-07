@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mi perfil</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="EstilosiBook.css" rel="stylesheet" type="text/css"/>
+        <style>
+            .header{
+                background-color: antiquewhite;
+                position: fixed;
+                display: flex;
+                top: 0;
+                left: 0;
+                height: 30%;
+                width: 100%;
+            }
+            .imagenP{ 
+                position:static;
+                display: flex;
+                width: 200px;
+                height: 200px;
+                margin:0 auto;
+                    
+            }
+            
+            .options{
+               position:fixed;
+               text-align: right;
+               top: 0;
+               right: 0;
+               padding: 50px 50px;
+            }
+            #contenido {
+                position: fixed;
+                top: 30%;
+                left: 0;
+                width: 100%;
+                height: 70%;
+                display: flex;
+                flex-direction: column; 
+                overflow-y: scroll;
+            }
+            
+            #pie {
+            text-align: center; 
+            margin-top: 20px;
+            font-size: 20px;
+            font-family: Arial;
+            color: maroon;
+            
+        }
+        
+         .centrar-imagen {
+            text-align: center; 
+        }
+        
+            
+           </style>
+           <!-- flex-direction Permite que los elementos dentro de dicho contenedor se distribuyan en una columna vertical, es decir, uno debajo del otro. -->
+    </head>
+    <body>
+        <div class="header">
+            <img class= "imagenP" src="Images/perfil.png" alt=""/>
+            <h1 class="username" >Paola Hernández</h1> 
+        </div>
+        
+        <nav class='options'>
+            <ul>
+                 <li><a href="HomePage.html"> iBook Menú</a></li>
+                <li><a href="Mi Biblioteca">Mi Biblioteca</a></li>
+            </ul>
+        </nav>
+        <section id="contenido">
+        <p>
+           "¡Hola a todos! Soy Paola Hernández, una apasionada lectora de libros. Permíteme contarte un poco sobre mí:
+
+Edad: Tengo 28 años, en plena etapa de descubrimiento y aprendizaje.
+
+Nacionalidad: Soy mexicana, orgullosa de mi herencia cultural y llena de amor por mi país.
+
+Preferencias: Disfruto de una amplia variedad de géneros literarios, desde novelas de misterio hasta poesía. Me encanta explorar nuevas voces y perspectivas a través de la lectura. Además, tengo un especial interés por los libros de ciencia ficción y fantasía, donde puedo sumergirme en mundos imaginarios.
+
+Cantidad de libros leídos: A lo largo de mi vida, he tenido la fortuna de sumergirme en más de 200 libros. Cada historia ha dejado una huella en mi corazón y ha enriquecido mi imaginación. ¡Siempre estoy en busca de nuevas historias para agregar a mi lista!
+
+En iBook, compartiré reseñas, recomendaciones y reflexiones sobre mis lecturas favoritas. Me encantaría conectarme con otros amantes de la lectura, intercambiar opiniones y descubrir nuevas joyas literarias juntos.
+
+¡Acompáñame en este viaje literario y exploremos el fascinante mundo de las palabras!" 
+         </p>
+        <h2 id="Subtitulos" style="text-align:center">¿Qué estoy leyendo? Top 3</h2>
+        <div class="centrar-imagen">
+            <img src="Images/ranking.jpg" width="900" alt=""/>
+        </div>
+        <div id="pie">
+            <sup>1er lugar</sup>    <sup>2do lugar</sup>   <sup>3er lugar</sup>
+        </div>
+        </section>
+    </body>
+</html>
